@@ -31,7 +31,8 @@
     "frontend"
   ],
   "author": "GENumeral, Manuel Silva",
-  "license": "ISC",
+  "license": "UNLICENSED",
+  "private":"true",
   "bugs": {
     "url": "https://github.com/GENumeral/front-templates/issues"
   },
