@@ -1,7 +1,7 @@
 {
-  "name": "genumeral-app-templates",
-  "version": "0.0.1",
-  "description": "Repositorio de plantillas HTML y CSS de las aplicaciones web del GENumeral",
+  "name": "genumeral-layout-dev-server",
+  "version": "1.0.1",
+  "description": "Servidor para maquetado de sitios y aplicaciones web del Grupo Educativo Numeral",
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
@@ -15,16 +15,22 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/GENumeral/front-templates.git"
+    "url": "git+https://github.com/GENumeral/front-end-template-repo.git"
   },
   "keywords": [
     "templates",
     "html",
+    "dev-server",
+    "sass",
+    "sass-dev-server",
+    "sass-server",
+    "gulp-server",
+    "gulp-sass",
     "css",
     "front-end",
     "frontend"
   ],
-  "author": "Manuel Silva",
+  "author": "GENumeral, Manuel Silva",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/GENumeral/front-templates/issues"
