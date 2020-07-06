@@ -1,7 +1,27 @@
 # Numeral - Templates
 
-Hola! Este repositorio contiene el maquetado de todas las aplicaciones y sitios web que construímos en Numeral.
+Hola! Este repositorio plantilla para maquetación de nuestras aplicaciones.
 
-Puedes obtener un overview de todos los proyectos en nuestra página demostrativa (Enlace pendiente).
+Este repositorio está preparado para comenzar a desarrollar con HTML y SASS
 
-Recuerda que las contribuciones debes hacerlas a la rama del proyecto en el que te encuentras colaborando.
+## Uso
+
+1. La manera más sencilla de comenzar es usando contendores. Para ello debes tener docker instalalado.
+  
+```bash
+docker-compose up --build
+```
+
+2. Si no tienes docker instalado, puedes usar npm
+
+```bash
+npm install
+```
+
+```bash
+npm run dev
+```
+
+El servidor utiliza por defecto el puerto 3000
+
+Si el navegador no se abre automáticamente, ingresa manualmente en tu navegador a `localhost:3000`

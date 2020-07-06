@@ -1,0 +1,33 @@
+{
+  "name": "genumeral-app-templates",
+  "version": "0.0.1",
+  "description": "Repositorio de plantillas HTML y CSS de las aplicaciones web del GENumeral",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-sass": "^4.1.0"
+  },
+  "scripts": {
+    "dev": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GENumeral/front-templates.git"
+  },
+  "keywords": [
+    "templates",
+    "html",
+    "css",
+    "front-end",
+    "frontend"
+  ],
+  "author": "Manuel Silva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GENumeral/front-templates/issues"
+  },
+  "homepage": "https://github.com/GENumeral/front-templates#readme"
+}
