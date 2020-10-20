@@ -59,7 +59,7 @@ function cleanDist() {
 
 function serve() {
   browserSync.init({
-    server: "./dist"  
+    server: "./dist"
   });
   watch('src/js/**/*.js', {usePolling: true}, transpileJs);
   watch('src/scss/**/*.scss', {usePolling: true}, compileSass);

@@ -1,6 +1,6 @@
 {
   "name": "genumeral-layout-dev-server",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Servidor para maquetado de sitios y aplicaciones web del Grupo Educativo Numeral",
   "main": "index.js",
   "dependencies": {},
