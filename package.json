@@ -1,13 +1,19 @@
 {
   "name": "genumeral-layout-dev-server",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "Servidor para maquetado de sitios y aplicaciones web del Grupo Educativo Numeral",
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
-    "browser-sync": "^2.26.7",
+    "@babel/core": "^7.11.1",
+    "@babel/preset-env": "^7.11.0",
+    "browser-sync": "^2.26.12",
+    "del": "^5.1.0",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^7.0.1",
+    "gulp-babel": "^8.0.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-pug": "^4.0.1",
     "gulp-sass": "^4.1.0"
   },
   "scripts": {
@@ -36,5 +42,8 @@
   "bugs": {
     "url": "https://github.com/GENumeral/front-templates/issues"
   },
-  "homepage": "https://github.com/GENumeral/front-templates#readme"
+  "homepage": "https://github.com/GENumeral/front-templates#readme",
+  "browserslist": [
+    "defaults"
+  ]
 }
