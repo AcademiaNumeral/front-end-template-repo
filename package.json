@@ -1,7 +1,7 @@
 {
   "name": "genumeral-layout-dev-server",
-  "version": "2.0.1",
-  "description": "Servidor para maquetado de sitios y aplicaciones web del Grupo Educativo Numeral",
+  "version": "2.1.0",
+  "description": "Maquetado del sitio web de MAPEO Soluciones",
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
@@ -17,7 +17,8 @@
     "gulp-sass": "^4.1.0"
   },
   "scripts": {
-    "dev": "gulp"
+    "dev": "gulp",
+    "build:ghpages": "NODE_ENV=ghpages gulp"
   },
   "repository": {
     "type": "git",
@@ -38,7 +39,7 @@
   ],
   "author": "GENumeral, Manuel Silva",
   "license": "UNLICENSED",
-  "private":"true",
+  "private": "true",
   "bugs": {
     "url": "https://github.com/GENumeral/front-templates/issues"
   },
