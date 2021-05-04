@@ -1,7 +1,7 @@
 {
-  "name": "genumeral-layout-dev-server",
+  "name": "nturing-layout-dev-server",
   "version": "2.1.0",
-  "description": "Maquetado del sitio web de MAPEO Soluciones",
+  "description": "Repositorio template para maquetado de aplicaciones web de Numeral Turing",
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
@@ -37,7 +37,7 @@
     "front-end",
     "frontend"
   ],
-  "author": "GENumeral, Manuel Silva",
+  "author": "Numeral Turing, Manuel Silva",
   "license": "UNLICENSED",
   "private": "true",
   "bugs": {
