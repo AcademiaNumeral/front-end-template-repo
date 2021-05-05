@@ -3,7 +3,6 @@
   "version": "2.1.0",
   "description": "Repositorio template para maquetado de aplicaciones web de Numeral Turing",
   "main": "index.js",
-  "dependencies": {},
   "devDependencies": {
     "@babel/core": "^7.11.1",
     "@babel/preset-env": "^7.11.0",
