@@ -4,9 +4,12 @@
 @import "./common/sizes.scss";
 
 // Componentes
-@import "./components/template-page.scss";
+// @import "./components/template-page.scss";
+@import "./components/contact-form.scss";
+@import "./components/section.scss";
 
 body {
   font-family: $montserrat;
-  background-color: $red;
+  margin: 0;
+  padding: 0;
 }
