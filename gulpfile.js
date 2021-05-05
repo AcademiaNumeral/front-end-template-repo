@@ -11,7 +11,7 @@ const { series, watch } = require('gulp');
 const distFolder = (process.env.NODE_ENV === 'ghpages') ? 'docs' : 'dist'
 
 function compileSass() {
-  return gulp.src(['src/scss/globals.scss'])
+  return gulp.src(['src/scss/global.scss'])
     .pipe(sass())
     .pipe(autoprefixer({
         cascade: false
