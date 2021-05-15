@@ -31,8 +31,7 @@ antes de continuar, debes tener en cuenta lo siguiente:
 3. La carpeta assets contiene las imágenes e íconos a utilizar. Debido a que no usamos un sistema de templates, te recomendamos que
 optimices previamente cada imagen antes de subirla.
 4. En la carpeta scss se encuentra el archivo ``global.scss``. Este archivo contiene los estilos globales compartidos por toda la
-aplicación. Este archivo representa los archivos globales y es llamado por defecto en todos los archivos html. Por lo tanto, no tienes
-que agregarlos manualmente.
+aplicación y es llamado por defecto en todos los archivos html. Por lo tanto, no tienes que agregarlos manualmente.
 5. En la carpeta js se encuentran los archivos javascript del proyecto. Notar que a cada archivo html le corresponde uno y solo un arhivo .js del mismo nombre.
 6. Todos los archivos .html deben tener un archivo .js relacionado, aunque este esté vacío, esto debido a que al realizar el "build", webpack busca los archivos .js y luego los .html con el mismo nombre.
 7. Los archivos que estén dentro de subcarpetas de la carpeta js se considerarán módulos, y pueden ser llamados dentro de los archivos principales que se encuentran en la raíz de la carpeta js. Si no son llamados dentro de ningún archivo principal, no serán considerados dentro del bundle de producción.
@@ -65,3 +64,9 @@ son servidos por gh-pages.
 
 Para continuar desarrollando regresa a la rama main y cuando hayas terminado mezcla tus cambios con la rama gh-pages y vuelve a ejecutar
 el comando anterior.
+
+Siéntente libre de dejar tus comentarios o sugerencias. También puedes abrir un issue o realizar tu propia contribución con un pull request.
+
+# Contribución
+
+Este repositorio es mantenido por el equipo de @AcademiaNumeral.
