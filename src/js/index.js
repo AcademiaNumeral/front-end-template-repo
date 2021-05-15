@@ -1,5 +1,5 @@
 import { saveStudent } from './repo/studentsRepo.js';
-import '../scss/global.scss';
+import '@styles/global.scss';
 
 const saveContactForm = () => {
   const contactForm = document.getElementById("contactForm");
