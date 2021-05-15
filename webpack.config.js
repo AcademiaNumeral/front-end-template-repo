@@ -5,9 +5,32 @@ const CopyPlugin = require('copy-webpack-plugin');
 const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
 const TerserPlugin = require('terser-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
+const glob = require('glob');
+
+const entryNames = (() => {
+  const files = glob.sync('./src/js/*.js');
+  const entries = files.reduce((acc, filepath) => {
+    const fileName = filepath.slice(filepath.lastIndexOf('/') + 1).split('.')[0];
+    return { ...acc,  [fileName]: filepath }
+  }, {});
+  return entries;
+})();
+
+const htmlEntries = Object.keys(entryNames).map((key) => {
+  return new HtmlWebpackPlugin({
+      inject: true,
+      template: `./src/${key}.html`,
+      filename: `./${key}.html`,
+      scriptLoading: 'defer',
+      dependsOn: 'shared',
+  })
+})
 
 module.exports = {
-  entry: './src/js/index.js',
+  entry: {
+    shared: './shared.js',
+    ...entryNames
+  },
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: './js/[name].[contenthash].js',
@@ -32,7 +55,7 @@ module.exports = {
         },
       },
       {
-        test: /\.s?css$/i,
+        test: /\.(sa|sc|c)ss$/,
         use: [
           MiniCssExtractPlugin.loader,
           'css-loader',
@@ -56,12 +79,7 @@ module.exports = {
     ],
   },
   plugins: [
-    new HtmlWebpackPlugin({
-      inject: true,
-      template: './src/index.html',
-      filename: './index.html',
-      scriptLoading: 'defer',
-    }),
+    ...htmlEntries,
     new MiniCssExtractPlugin({
       filename: 'css/[name].[contenthash].css',
     }),
