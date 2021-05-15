@@ -8,7 +8,7 @@ compatibilidad con distintos navegadores.
 
 ## Pre-requisitos
 
-1. Node v 12.6.0 o superior
+1. Node v 12.13.0 o superior
 ## Uso
 
 ```bash
