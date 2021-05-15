@@ -67,6 +67,6 @@ el comando anterior.
 
 Siéntente libre de dejar tus comentarios o sugerencias. También puedes abrir un issue o realizar tu propia contribución con un pull request.
 
-# Contribución
+## Contribución
 
 Este repositorio es mantenido por el equipo de @AcademiaNumeral.
